@@ -27,3 +27,5 @@ INFO:root:Loglevel is info
 INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:root:Loglevel is info
 INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Loglevel is info
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.

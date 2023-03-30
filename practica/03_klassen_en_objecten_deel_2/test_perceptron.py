@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from Copy_Perceptron_how_to import Perceptron
+from perceptron import Perceptron
 import itertools
 import logging
 import numpy as np
