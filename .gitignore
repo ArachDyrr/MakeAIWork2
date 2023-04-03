@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/practica/05_operator_overloading/scratch_5.py
+/practica/01_introductie_neurale_netwerken/scratch_6.py
+/practica/06_neurale_netwerken/to do.ipynb
