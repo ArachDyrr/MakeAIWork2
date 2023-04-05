@@ -59,7 +59,7 @@ def initial_input(list_of_list_matrix):
     # return flattned_matrix
 
 
-# a function to generate random wieights
+# a function to generate random weights
 def initial_random_weights(i_n):
     """generate random weights totaling to 1"""
 
