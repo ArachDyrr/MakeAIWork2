@@ -58,3 +58,9 @@ class Matrix:
         """check if all rows in matrix have the same length"""
         shape = len(self.input[0])
         return all(len(row) == shape for row in self.input)
+
+    def __eq__ (self, other):
+        return len(self.input[0]) == len(other.input)
+
+    def __mul__(self, other):
+        return self.matrix_multiplication(other)
