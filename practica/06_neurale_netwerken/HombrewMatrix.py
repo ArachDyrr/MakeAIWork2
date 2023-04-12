@@ -3,20 +3,20 @@ class Matrix:
     def __init__(self, argInput):
         self.input = argInput
 
-    def printable (self): # generates a printable object
+    def printable(self):  # generates a printable object
         """generates a printable object"""
-        return (self.input)
+        return self.input
 
-    def transpose (self):
+    def transpose(self):
         """transposes a matrix"""
         transposed_input = list(map(list, zip(*self.input)))
         return transposed_input
 
     def shapeCohesionCheck(self):
-         """Checks if all rows in a matrix have the same amount of items"""
-         row_nr = 0
-         base_row_length = len(self.input[0])
-         for item in self.input:
+        """Checks if all rows in a matrix have the same amount of items"""
+        row_nr = 0
+        base_row_length = len(self.input[0])
+        for item in self.input:
             rows_col = len(self.input[row_nr])
             if base_row_length != rows_col:
                 print(f'Error in {self.input} {item}')
@@ -61,9 +61,9 @@ class Matrix:
         shape = len(self.input[0])
         return all(len(row) == shape for row in self.input)
 
-    def __eq__ (self, other):
-
-        return len(self.input[0]) == len(other.input)
+    # def __eq__ (self, other):
+    #
+    #     return len(self.input[0]) == len(other.input)
 
     def __mul__(self, other):
         """multiplies 2 matrixes"""
